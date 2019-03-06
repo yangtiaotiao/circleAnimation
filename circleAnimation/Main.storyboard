@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nbM-eX-8lj">
+                                <rect key="frame" x="37.5" y="288.5" width="300" height="90"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="w外圈" translatesAutoresizingMaskIntoConstraints="NO" id="2jb-5Q-FXl">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="3hV-e0-u7b"/>
+                                            <constraint firstAttribute="height" constant="90" id="T37-UB-3XD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nK5-91-hD1">
+                                        <rect key="frame" x="135" y="-15" width="30" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.048318078289999997" blue="0.21515630190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="0wR-yU-ck1"/>
+                                        </constraints>
+                                        <state key="normal" title="B1"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="b2action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SIG-3Y-9jy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ru-BI-SXd">
+                                        <rect key="frame" x="285" y="30" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.60392156862745094" green="0.048318078289999997" blue="0.8949554090428572" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Zgf-Dl-TmX"/>
+                                        </constraints>
+                                        <state key="normal" title="B2"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="b2action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mc7-FK-7oO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7l5-yc-xE1">
+                                        <rect key="frame" x="135" y="75" width="30" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.97380022321428572" blue="0.21515630190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="4ct-Ff-4IU"/>
+                                        </constraints>
+                                        <state key="normal" title="B3"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="b2action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BnO-0z-RV8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dP-gY-Oia">
+                                        <rect key="frame" x="-15" y="30" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.19107142857142856" green="1" blue="0.21515630190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Jwg-eg-MWp"/>
+                                        </constraints>
+                                        <state key="normal" title="B4"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="b2action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MBB-5T-842"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="2jb-5Q-FXl" firstAttribute="centerX" secondItem="nbM-eX-8lj" secondAttribute="centerX" id="0jt-ro-Skg"/>
+                                    <constraint firstItem="7l5-yc-xE1" firstAttribute="centerX" secondItem="nbM-eX-8lj" secondAttribute="centerX" id="BUe-zj-p8m"/>
+                                    <constraint firstItem="7l5-yc-xE1" firstAttribute="centerY" secondItem="nbM-eX-8lj" secondAttribute="centerY" constant="45" id="HjO-sU-Ozm"/>
+                                    <constraint firstAttribute="width" constant="300" id="TOI-Ov-pUb"/>
+                                    <constraint firstItem="3dP-gY-Oia" firstAttribute="centerY" secondItem="nbM-eX-8lj" secondAttribute="centerY" id="TTy-qj-hq9"/>
+                                    <constraint firstItem="nK5-91-hD1" firstAttribute="centerX" secondItem="nbM-eX-8lj" secondAttribute="centerX" id="Txg-G3-eaB"/>
+                                    <constraint firstItem="3dP-gY-Oia" firstAttribute="centerX" secondItem="nbM-eX-8lj" secondAttribute="centerX" constant="-150" id="Wck-Pq-O4u"/>
+                                    <constraint firstItem="2jb-5Q-FXl" firstAttribute="centerY" secondItem="nbM-eX-8lj" secondAttribute="centerY" id="YT5-Xh-zTi"/>
+                                    <constraint firstItem="nK5-91-hD1" firstAttribute="centerY" secondItem="nbM-eX-8lj" secondAttribute="centerY" constant="-45" id="gh0-7I-Y7t"/>
+                                    <constraint firstAttribute="height" constant="90" id="l16-ay-Kmq"/>
+                                    <constraint firstItem="7Ru-BI-SXd" firstAttribute="centerY" secondItem="nbM-eX-8lj" secondAttribute="centerY" id="nYk-vo-YVV"/>
+                                    <constraint firstItem="7Ru-BI-SXd" firstAttribute="centerX" secondItem="nbM-eX-8lj" secondAttribute="centerX" constant="150" id="ybX-8V-utO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nbM-eX-8lj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hvU-b9-aGc"/>
+                            <constraint firstItem="nbM-eX-8lj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sm7-6X-O0d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="b1" destination="nK5-91-hD1" id="34T-mw-vnC"/>
+                        <outlet property="b2" destination="7Ru-BI-SXd" id="sxM-lW-3Ns"/>
+                        <outlet property="b3" destination="7l5-yc-xE1" id="WwY-g2-kbF"/>
+                        <outlet property="b4" destination="3dP-gY-Oia" id="coe-to-YTF"/>
+                        <outlet property="contentView" destination="nbM-eX-8lj" id="geX-wa-Cyb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="333.28335832083962"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="w外圈" width="290.5" height="93.5"/>
+    </resources>
+</document>
